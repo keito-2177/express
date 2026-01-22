@@ -22,3 +22,4 @@ const note = await notes.find({}).toArray();
 
 res.json(note);
 })
+module.exports = router;
